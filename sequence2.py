@@ -1,0 +1,8 @@
+"""Sequence II"""
+def main():
+    """Sequence"""
+    num = int(input())
+    for i in range(1, num + 1):
+        square = i ** 2
+        print(square, end=' ')
+main()
